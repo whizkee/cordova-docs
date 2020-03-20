@@ -81,6 +81,12 @@ When installing on Windows, you need to add Gradle to your path, (see [Setting E
 Install [Android Studio][android_studio]. Follow the instructions at the linked Android Developer site to get started.
 Opening Android Studio for the first time will guide you through the process of installing the Android SDK.
 
+Warning: In Android Studio 3.6 or later, you need to manually add the old version of the Android SDK Tools for Flutter to work. To do this:
+
+Open the Android Studio SDK Manager
+In the Android SDK tab, uncheck Hide Obsolete Packages
+Check Android SDK Tools (Obsolete)
+
 #### Adding SDK Packages
 
 After installing the Android SDK, you must also install the packages for
